@@ -71,14 +71,13 @@ flutter run
 
 ## 🖼️ Cuplikan Layar
 
-![home](https://github.com/user-attachments/assets/e4b99a66-0d6b-4111-8b0b-db1c985f6097) ![portal](https://github.com/user-attachments/assets/1342996a-8db8-49a8-8cdb-e9ea39e2562c) ![profil](https://github.com/user-attachments/assets/20e48049-b381-441a-93df-b3e10bb205ef)
+![image](https://github.com/user-attachments/assets/55e62ec6-49bc-4b2e-9168-42f2592e35fe) ![image](https://github.com/user-attachments/assets/d6b236b3-3a97-4eb8-9034-6f6df0ff5773)![home](https://github.com/user-attachments/assets/e4b99a66-0d6b-4111-8b0b-db1c985f6097) ![portal](https://github.com/user-attachments/assets/1342996a-8db8-49a8-8cdb-e9ea39e2562c) ![profil](https://github.com/user-attachments/assets/20e48049-b381-441a-93df-b3e10bb205ef)
 
 
 ## 📚 Dibuat Untuk
 
 🎓 **Tugas Mata Kuliah**
 Pemrograman Berbasis Mobile – *SINF3044*
-Universitas/Institusi Anda
 
 ---
 
