@@ -1,79 +1,91 @@
-# 📱 Aplikasi Flutter
+# 📰 Flutter News Portal App
 
-Repositori ini berisi proyek aplikasi Flutter yang dikembangkan sebagai bagian dari tugas Praktikum Pemrograman Berbasis Mobile (PBM). Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang responsif dan menarik di berbagai platform, termasuk Android, iOS, Web, dan Desktop.
+## 🚀 Pendahuluan
 
-## 🧭 Daftar Isi
+Selamat datang di proyek **Portal Berita Mobile** berbasis **Flutter**!
+Aplikasi ini dirancang sebagai bagian dari tugas mata kuliah **Pengembangan Berbasis Mobile (SINF3044)**. Di sini, pengguna dapat menjelajahi artikel berita terkini, membaca detailnya, dan melakukan autentikasi seperti login dan registrasi.
 
-* [Fitur Utama](#fitur-utama)
-* [Struktur Proyek](#struktur-proyek)
-* [Instalasi dan Menjalankan Proyek](#instalasi-dan-menjalankan-proyek)
-* [Tampilan Aplikasi](#tampilan-aplikasi)
-* [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-* [Lisensi](#lisensi)
+---
 
-## ✨ Fitur Utama
+## 🔍 Apa yang Bisa Dilakukan Aplikasi Ini?
 
-* Antarmuka pengguna yang intuitif dan responsif.
-* Dukungan lintas platform: Android, iOS, Web, Windows, macOS, dan Linux.
-* Struktur kode yang modular dan mudah dipelihara.
-* Penggunaan widget Flutter untuk membangun UI yang menarik.
+Aplikasi ini menggabungkan berbagai fitur Flutter modern yang mendemonstrasikan kemampuan Anda dalam membangun aplikasi mobile yang **interaktif dan informatif**:
 
-## 📁 Struktur Proyek
+✨ **Fitur-Fitur Utama:**
 
-Berikut adalah struktur direktori utama dalam proyek ini:
+* 📰 **Feed Berita:** Menampilkan berita terbaru dari API TechCrunch.
+* 🧭 **Kategori Dinamis:** Menelusuri berita berdasarkan kategori seperti *Umum*, *Hiburan*, dan *Transportasi*.
+* 📖 **Detail Artikel:** Lihat isi artikel lengkap beserta gambar dan tanggal terbit.
+* 🔐 **Autentikasi Pengguna:** Sistem login dan registrasi dengan autentikasi token.
+* 🙋‍♂️ **Profil Pengguna:** Melihat dan mengelola data diri pengguna.
+
+---
+
+## 🧱 Struktur Proyek
+
+Struktur direktori utama dari aplikasi ini:
+
+```
+lib/
+├── main.dart         # Titik awal aplikasi
+├── home.dart         # Halaman utama (feed berita)
+├── detail.dart       # Halaman untuk melihat detail artikel
+├── kategori.dart     # Halaman pemilihan kategori berita
+├── profil.dart       # Halaman profil pengguna
+├── formlogin.dart    # Halaman login
+└── formregist.dart   # Halaman registrasi
+```
+
+---
+
+## 🛠️ Teknologi & Tools
+
+Beberapa teknologi dan package yang digunakan dalam proyek ini:
+
+* 💙 **Flutter**: Framework utama untuk UI dan logic aplikasi
+* 🌐 **HTTP Package**: Mengambil data berita dari API eksternal
+* 📦 **Shared Preferences**: Menyimpan data pengguna secara lokal
+* 🌈 **Curved Navigation Bar**: Navigasi bawah dengan desain custom
+* 🍞 **FlutterToast**: Notifikasi ringan ke pengguna
+
+---
+
+## 🌐 Integrasi API
+
+🔗 Aplikasi ini mengambil data berita dari [NewsAPI - TechCrunch endpoint](https://newsapi.org/), memungkinkan pengguna melihat berita paling baru secara real-time.
+
+---
+
+## 💻 Cara Menjalankan Aplikasi
+
+Ikuti langkah-langkah berikut untuk mencoba aplikasi ini secara lokal:
+
+```bash
+git clone https://github.com/prytarosela/PrytaRosela_2208107010046_TugasPBM.git
+cd PrytaRosela_2208107010046_TugasPBM
+flutter pub get
+flutter run
+```
+
+---
+
+## 🖼️ Cuplikan Layar
+
+📸 Anda dapat menambahkan screenshot aplikasi Anda di bawah ini untuk menunjukkan UI-nya:
+
+```
+![home](https://github.com/user-attachments/assets/e4b99a66-0d6b-4111-8b0b-db1c985f6097) ![portal](https://github.com/user-attachments/assets/1342996a-8db8-49a8-8cdb-e9ea39e2562c) ![profil](https://github.com/user-attachments/assets/20e48049-b381-441a-93df-b3e10bb205ef)
 
 ```
 
-.
-├── android/        # Konfigurasi dan kode spesifik untuk platform Android
-├── ios/            # Konfigurasi dan kode spesifik untuk platform iOS
-├── lib/            # Kode sumber utama aplikasi (Dart)
-├── linux/          # Konfigurasi dan kode untuk platform Linux
-├── macos/          # Konfigurasi dan kode untuk platform macOS
-├── test/           # Unit dan widget tests
-├── web/            # Konfigurasi dan kode untuk aplikasi web
-├── windows/        # Konfigurasi dan kode untuk platform Windows
-├── pubspec.yaml    # File konfigurasi dependensi dan metadata proyek
-└── README.md       # Dokumentasi proyek
-```
+## 📚 Dibuat Untuk
 
+🎓 **Tugas Mata Kuliah**
+Pemrograman Berbasis Mobile – *SINF3044*
+Universitas/Institusi Anda
 
-## ⚙️ Instalasi dan Menjalankan Proyek
-
-Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
-
-1. **Klon repositori:**
-
-   ```bash
-   git clone https://github.com/prytarosela/PrytaRosela_2208107010046_TugasPBM.git
-   cd PrytaRosela_2208107010046_TugasPBM
-   ```
-
-2. **Pasang dependensi:**
-
-   ```bash
-   flutter pub get
-   ```
-
-3. **Jalankan aplikasi:**
-
-   ```bash
-   flutter run
-   ```
-
-Pastikan Anda telah menginstal [Flutter SDK](https://flutter.dev/docs/get-started/install) dan telah mengonfigurasi lingkungan pengembangan Anda sesuai dengan dokumentasi resmi Flutter.
-
-## 🖼️ Tampilan Aplikasi
-
-![home](https://github.com/user-attachments/assets/2890a661-ae23-49e8-92ef-515599a5530e) ![portal](https://github.com/user-attachments/assets/6e8f8f45-5b69-4f2a-96d1-571abd5ad624) ![profil](https://github.com/user-attachments/assets/9e1d12ff-679b-4070-8da3-ea746ed100d8)
-
-
-## 🛠️ Teknologi yang Digunakan
-
-* [Flutter](https://flutter.dev/) - Framework UI untuk membangun aplikasi lintas platform.
-* [Dart](https://dart.dev/) - Bahasa pemrograman yang digunakan oleh Flutter.
-* [Android Studio](https://developer.android.com/studio) atau [Visual Studio Code](https://code.visualstudio.com/) - IDE untuk pengembangan aplikasi Flutter.
+---
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE). Silakan lihat file LICENSE untuk informasi lebih lanjut.
+📝 Proyek ini berada di bawah lisensi **MIT License**. Silakan lihat file `LICENSE` untuk detail selengkapnya.
