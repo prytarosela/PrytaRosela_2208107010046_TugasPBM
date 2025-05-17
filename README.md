@@ -3,7 +3,7 @@
 ## 🚀 Pendahuluan
 
 Selamat datang di proyek **Portal Berita Mobile** berbasis **Flutter**!
-Aplikasi ini dirancang sebagai bagian dari tugas mata kuliah **Pengembangan Berbasis Mobile (SINF3044)**. Di sini, pengguna dapat menjelajahi artikel berita terkini, membaca detailnya, dan melakukan autentikasi seperti login dan registrasi.
+Aplikasi ini dirancang sebagai bagian dari tugas mata kuliah **Pemrograman Berbasis Mobile (SINF3044)**. Di sini, pengguna dapat menjelajahi artikel berita terkini, membaca detailnya, dan melakukan autentikasi seperti login dan registrasi.
 
 ---
 
@@ -71,12 +71,8 @@ flutter run
 
 ## 🖼️ Cuplikan Layar
 
-📸 Anda dapat menambahkan screenshot aplikasi Anda di bawah ini untuk menunjukkan UI-nya:
-
-```
 ![home](https://github.com/user-attachments/assets/e4b99a66-0d6b-4111-8b0b-db1c985f6097) ![portal](https://github.com/user-attachments/assets/1342996a-8db8-49a8-8cdb-e9ea39e2562c) ![profil](https://github.com/user-attachments/assets/20e48049-b381-441a-93df-b3e10bb205ef)
 
-```
 
 ## 📚 Dibuat Untuk
 
